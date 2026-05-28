@@ -2,8 +2,6 @@ use criterion::{Criterion, criterion_group, criterion_main};
 use std::hint::black_box;
 use std::path::PathBuf;
 use std::process::Command;
-use tempfile;
-
 fn bench_fastq_pair(c: &mut Criterion) {
     let bin = env!("CARGO_BIN_EXE_rsomics-fastq-pair");
     let manifest = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
