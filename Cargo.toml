@@ -12,6 +12,11 @@ description = "Re-pair shuffled paired-end FASTQ reads by name"
 name = "rsomics-fastq-pair"
 path = "src/main.rs"
 
+
+[lib]
+name = "rsomics_fastq_pair"
+path = "src/lib.rs"
+doctest = false
 [dependencies]
 rsomics-common = { version = "0.6" }
 rsomics-help = { version = "0.3" }
