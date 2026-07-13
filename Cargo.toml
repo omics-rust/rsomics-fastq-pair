@@ -1,6 +1,7 @@
 [package]
 name = "rsomics-fastq-pair"
-version = "0.1.1"
+version = "0.1.2"
+readme = "README.md"
 edition = "2024"
 rust-version = "1.91"
 license = "MIT OR Apache-2.0"
